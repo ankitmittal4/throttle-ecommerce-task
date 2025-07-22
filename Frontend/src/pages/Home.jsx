@@ -7,7 +7,7 @@ function Home() {
         <div className="p-6">
             {/* Hero Section */}
             <div className="text-center mb-12">
-                <h1 className="text-5xl font-extrabold text-black">F1 Streetwear</h1>
+                <h1 className="text-5xl font-extrabold text-gray-800">F1 Streetwear</h1>
                 <p className="mt-2 text-lg text-gray-600">Race-inspired. Street-approved.</p>
                 <button
                     className="mt-6 bg-black text-white px-6 py-3 rounded hover:bg-gray-800 transition"

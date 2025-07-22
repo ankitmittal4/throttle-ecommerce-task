@@ -10,11 +10,11 @@ import './index.css';
 function App() {
   return (
     <Router>
-      <nav className="bg-black text-white p-4 flex justify-between">
+      <nav className="bg-gray-900 text-white p-4 flex justify-between">
         <Link to="/" className="font-bold">F1 Streetwear</Link>
         <div className="flex gap-4">
-          <Link to="/login">Login</Link>
-          <Link to="/cart">Cart</Link>
+          <Link to="/login" className='hover:text-gray-300'>Login</Link>
+          <Link to="/cart" className='hover:text-gray-300'>Cart</Link>
         </div>
       </nav>
 

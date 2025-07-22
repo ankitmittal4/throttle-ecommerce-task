@@ -23,7 +23,7 @@ function CartPage() {
                 <CartItem key={item.id} item={item} onQuantityChange={handleQuantityChange} />
             ))}
             <p className="mt-4 font-medium">Subtotal: ₹{subtotal}</p>
-            <button className="mt-4 bg-black text-white px-4 py-2 rounded">Checkout</button>
+            <button className="mt-4 bg-gray-900 hover:bg-gray-800 text-white px-4 py-2 rounded">Checkout</button>
         </div>
     );
 }

@@ -1,13 +1,14 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 function AuthPage({ type }) {
+    const navigate = useNavigate();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [otp, setOtp] = useState('');
     const [showReset, setShowReset] = useState(false);
 
-    const isLogin = type === 'Login';
-    const isSignup = type === 'Sign Up';
+    // const isLogin = type === 'Login';
+    // const isSignup = type === 'Sign Up';
     const isForgot = type === 'Forgot Password';
 
     const handleSubmit = (e) => {
@@ -18,6 +19,7 @@ function AuthPage({ type }) {
         } else {
             alert(`${type} Submitted`);
         }
+        navigate('/');
     };
 
     return (

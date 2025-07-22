@@ -3,7 +3,7 @@ import SearchBar from '../components/SearchBar';
 import ProductCard from '../components/ProductCard';
 
 const products = [
-    { id: 1, name: 'Speed T-Shirt', category: 'Tees', image: 'https://nobero.com/cdn/shop/files/black_8f2f0bb4-9293-4d6f-a179-c918d7602384.jpg?v=1712232992' },
+    { id: 1, name: 'Speed T-Shirt', category: 'T-shirt', image: 'https://nobero.com/cdn/shop/files/black_8f2f0bb4-9293-4d6f-a179-c918d7602384.jpg?v=1712232992' },
     { id: 2, name: 'Turbo Jacket', category: 'Jackets', image: 'https://www.voganow.com/cdn/shop/files/BBGJ-1108-014_2_copy.jpg?v=1752318542' },
     { id: 3, name: 'Drift Cap', category: 'Caps', image: 'https://m.media-amazon.com/images/I/519mAeaRtSL.jpg' },
 ];
